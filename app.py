@@ -79,8 +79,8 @@ def predict():
     output = round(prediction[0], 2)
     print(output)
     if(output==1):
-       return render_template('index1.html', prediction_text='RESULT IS POSITIVE')
+       return render_template('index.php', prediction_text='RESULT IS POSITIVE')
     else:
-          return render_template('index2.html', prediction_text='RESULT IS NEGATIVE')  
+          return render_template('index.php', prediction_text='RESULT IS NEGATIVE')  
 if __name__ == "__main__":
     app.run(debug=False)
