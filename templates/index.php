@@ -12,8 +12,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type='text/css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type='text/css'>
  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}" >
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/animate.css') }}>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}" >
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}" >
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}" >
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-datepicker.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.timepicker.css') }}">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
+    <link rel="stylesheet"href="{{ url_for('static', filename='css/flaticon.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
 
     
 </head>
@@ -193,33 +208,7 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
- <!-- Jquery JS-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Vendor JS-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
 
-    <!-- Main JS-->
-    <script src="js/global.js"></script>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
     
   </body>
 </html>
