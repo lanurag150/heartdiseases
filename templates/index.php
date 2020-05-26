@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
   </head>
   <body>
-    
+  
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="http://premediccare.rf.gd/mainindex-user.php"><i class="flaticon-pharmacy"></i><span>Pre</span>Medic Care</a>
@@ -61,7 +61,17 @@
   </nav>
     <!-- END nav -->
     
-   
+    <div class="hero-wrap" style="background-image: url('images/cardio.jpg'); background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center">
+            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/index.php">Home</a></span></p>
+            <h3 class="mb-3 bread">CardioVascular-Department</h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
    <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px">
    
@@ -138,7 +148,7 @@
             </div>
       {{ prediction_text }}
     </section>
-		
+		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>
       <div class="container">
         <div class="row mb-5">
@@ -188,15 +198,12 @@
           </div>
         </div>
       </div>
-   
+    </footer>
     
   
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-
     <!-- Main JS-->
    
 
