@@ -49,7 +49,7 @@
         </ul>
         <div class="dropdown" style="float:right;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<?php $_SESSION['Name'];?>
+<?php $_COOKIE['Name'];?>
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="#">Dashboard</a>
