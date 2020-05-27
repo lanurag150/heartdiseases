@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Premedic-Heart Analysis</title>
+    <title>Premedic-BreastCancer Analysis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -66,25 +66,25 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/index.php">Home</a></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/indexmain-user.php">Home</a></span></p>
             <h3 class="mb-3 bread">CardioVascular-Department</h3>
           </div>
         </div>
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 2000px">
    
       <div class="container col-lg-6" >
           
           
             <div class="w3-card-4" style="width: 550px;">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">Heart Disease Analysis</h2>
+                <h2 style="color:white;">Heart Diseases Analysis</h2>
               </div>
               <form class="w3-container" action="{{ url_for('predict')}}"method="post">
                 <br>
-                <p>      
+                  <p>      
                 <label class="w3-text-black"><b>Age</b></label>
                 <input class="w3-input w3-border w3-sand" name="first" type="text">     </p>
                 <p>      
