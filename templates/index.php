@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Premedic-HeartDiseases Analysis</title>
+    <title>Premedic-Heart Diseases Analysis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -67,7 +67,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
             <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/indexmain-user.php">Home</a></span></p>
-            <h3 class="mb-3 bread">HeartDisease-Department</h3>
+            <h3 class="mb-3 bread">Cardiovascular-Department</h3>
           </div>
         </div>
       </div>
@@ -80,31 +80,31 @@
           
             <div class="w3-card-4" style="width: 550px;">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">Heart Diseases Analysis</h2>
+                <h2 style="color:white;">Hear Diseases Analysis</h2>
               </div>
-              <form class="w3-container" action="{{ url_for('predict')}}"method="post">
+              <form class="w3-container" action="{{ url_for('predict')}}"method="post" >
                 <br>
-             <p>      
+               <p>      
                 <label class="w3-text-black"><b>Age</b></label>
-                <input class="w3-input w3-border w3-sand" name="first" type="text">     </p>
+                <input class="w3-input w3-border w3-sand" name="first" type="text" required="required">     </p>
                 <p>      
                 <label class="w3-text-black"><b>Resting Blood Pressure</b></label>
-                <input class="w3-input w3-border w3-sand" name="trestbps" type="text">
+                <input class="w3-input w3-border w3-sand" name="trestbps" type="text" required="required">
                 </p>
                 <p>      
                 <label class="w3-text-black"><b>Cholestrol</b></label>
-                <input class="w3-input w3-border w3-sand" name="chol" type="text">     </p>
+                <input class="w3-input w3-border w3-sand" name="chol" type="text" required="required">     </p>
                 <p>      
                 <label class="w3-text-black"><b>thalach</b></label>
-                <input class="w3-input w3-border w3-sand" name="thalach" type="text">
+                <input class="w3-input w3-border w3-sand" name="thalach" type="text" required="required">
                 </p>
                 <p>      
                 <label class="w3-text-black"><b>oldpeak</b></label>
-                <input class="w3-input w3-border w3-sand" name="oldpeak" type="text">
+                <input class="w3-input w3-border w3-sand" name="oldpeak" type="text" required="required">
                 </p>
                 <p>
                 <label class="w3-text-black"><b>Gender</b></label>
-                <select class="w3-select w3-border w3-sand" name="sex" >
+                <select class="w3-select w3-border w3-sand" name="sex"  required="required">
                 <option value="" disabled selected>Select Option</option>
                 <option value="1">Male</option>
                 <option value="0">Female</option>
@@ -112,35 +112,70 @@
                 </p>
                 <p>
                 <label class="w3-text-black"><b>Chest Pain</b></label>
-                <select class="w3-select w3-border w3-sand" name="cp" >
+                <select class="w3-select w3-border w3-sand" name="cp" required="required" >
                 <option value="" disabled selected>Select Option</option>
-                <option value="1">Type 1</option>
-                <option value="0">Type 2</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				 <option value="2">Type 3</option>
+				  <option value="3">Type 4</option>
                 </select>
                 </p>
                 <p>
                 <label class="w3-text-black"><b>Fbs</b></label>
-                <select class="w3-select w3-border w3-sand" name="Fbs" >
+                <select class="w3-select w3-border w3-sand" name="Fbs" required="required" >
                 <option value="" disabled selected>Select Option</option>
-                <option value="1">Type 1</option>
-                <option value="0">Type 2</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
                 </select>
                 </p>
                 <p>      
                 <label class="w3-text-black"><b>Restg</b></label>
-                <input class="w3-input w3-border w3-sand" name="restg" type="text"></p>
+                 <select class="w3-select w3-border w3-sand" name="Restg" required="required" >
+                <option value="" disabled selected>Select Option</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				  <option value="2">Type 3</option>
+                </select></p>
                 <p>      
                 <label class="w3-text-black"><b>Exang</b></label>
-                <input class="w3-input w3-border w3-sand" name="exang" type="text"></p>
+                <select class="w3-select w3-border w3-sand" name="Exang" required="required">
+                <option value="" disabled selected>Select Option</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				 
+                </select></p>
+				<p>
+				<label class="w3-text-black"><b>Slope</b></label>
+				   <select class="w3-select w3-border w3-sand" name="Slope" required="required">
+                <option value="" disabled selected>Select Option</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				  <option value="2">Type 3</option>
+                </select>
+               </p>
                 <p>      
                 <label class="w3-text-black"><b>Ca</b></label>
-                <input class="w3-input w3-border w3-sand" name="Ca" type="text"></p>
-                <p>      
-                <label class="w3-text-black"><b>Slope</b></label>
-                <input class="w3-input w3-border w3-sand" name="slope" type="text"></p>
+					   <select class="w3-select w3-border w3-sand" name="Ca" required="required" >
+                <option value="" disabled selected>Select Option</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				  <option value="2">Type 3</option>
+				   <option value="3">Type 4</option>
+				  <option value="4">Type 5</option>
+                </select>
+               </p>
+                   
+                
                 <p>      
                 <label class="w3-text-black"><b>Thal</b></label>
-                <input class="w3-input w3-border w3-sand" name="thal" type="text"></p>
+               	   <select class="w3-select w3-border w3-sand" name="Ca"  required="required">
+                <option value="" disabled selected>Select Option</option>
+                <option value="0">Type 1</option>
+                <option value="1">Type 2</option>
+				  <option value="2">Type 3</option>
+				   <option value="3">Type 4</option>
+				 
+                </select></p>
             
                 <p>
                 <button type="submit"class="w3-btn w3-black">Analyse now</button></p>
@@ -228,3 +263,39 @@
     
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
