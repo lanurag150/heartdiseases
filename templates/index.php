@@ -67,13 +67,13 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
             <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/indexmain-user.php">Home</a></span></p>
-            <h3 class="mb-3 bread">CardioVascular-Department</h3>
+            <h3 class="mb-3 bread">HeartDisease-Department</h3>
           </div>
         </div>
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 3500px">
    
       <div class="container col-lg-6" >
           
@@ -84,7 +84,7 @@
               </div>
               <form class="w3-container" action="{{ url_for('predict')}}"method="post">
                 <br>
-                  <p>      
+             <p>      
                 <label class="w3-text-black"><b>Age</b></label>
                 <input class="w3-input w3-border w3-sand" name="first" type="text">     </p>
                 <p>      
@@ -141,6 +141,7 @@
                 <p>      
                 <label class="w3-text-black"><b>Thal</b></label>
                 <input class="w3-input w3-border w3-sand" name="thal" type="text"></p>
+            
                 <p>
                 <button type="submit"class="w3-btn w3-black">Analyse now</button></p>
               </form>
