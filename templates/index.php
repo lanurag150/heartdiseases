@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Premedic-Heart Diseases Analysis</title>
+    <title>Premedic-Heart Disease Analysis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -61,12 +61,12 @@
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/cardio.jpg') }}'); background-attachment:fixed;">
+    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/diabetes.jpg') }}'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/indexmain-user.php">Home</a></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="http://premediccare.rf.gd/index.php">Home</a></span></p>
             <h3 class="mb-3 bread">Cardiovascular-Department</h3>
           </div>
         </div>
@@ -80,11 +80,11 @@
           
             <div class="w3-card-4" style="width: 550px;">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">Hear Diseases Analysis</h2>
+                <h2 style="color:white;">Heart Disease Analysis</h2>
               </div>
-              <form class="w3-container" action="{{ url_for('predict')}}"method="post" >
+              <form class="w3-container" action="{{ url_for('predict')}}"method="post">
                 <br>
-               <p>      
+                <p>      
                 <label class="w3-text-black"><b>Age</b></label>
                 <input class="w3-input w3-border w3-sand" name="first" type="text" required="required">     </p>
                 <p>      
@@ -168,7 +168,7 @@
                 
                 <p>      
                 <label class="w3-text-black"><b>Thal</b></label>
-               	   <select class="w3-select w3-border w3-sand" name="Ca"  required="required">
+               	   <select class="w3-select w3-border w3-sand" name="Thal"  required="required">
                 <option value="" disabled selected>Select Option</option>
                 <option value="0">Type 1</option>
                 <option value="1">Type 2</option>
@@ -176,7 +176,7 @@
 				   <option value="3">Type 4</option>
 				 
                 </select></p>
-            
+             
                 <p>
                 <button type="submit"class="w3-btn w3-black">Analyse now</button></p>
               </form>
@@ -263,39 +263,3 @@
     
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
