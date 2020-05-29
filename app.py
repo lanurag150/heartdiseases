@@ -72,12 +72,12 @@ def predict():
     else:
           list[29]=1
           
-    print(list)    
+      
     final_features = [np.array(list)]
     prediction = model.predict(final_features)
 
     output = round(prediction[0], 2)
-    print(output)
+   
     if(output==1):
        return render_template('index.php', prediction_text='RESULT IS POSITIVE')
     else:
