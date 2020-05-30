@@ -78,11 +78,11 @@
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 550px;">
+            <div class="w3-card-4" style="width: 550px;"style="background-color:White">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Heart Disease Analysis</h2>
               </div>
-              <form class="w3-container" action="{{ url_for('predict')}}"method="post" style="background-color:White">
+              <form class="w3-container" action="{{ url_for('predict')}}"method="post" >
                 <br>
                 <p>      
                 <label class="w3-text-black"><b>Age</b></label>
