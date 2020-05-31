@@ -78,7 +78,9 @@
       <div class="container col-lg-6" >
           
           
-            <div class="w3-card-4" style="width: 550px;background-color:White">
+            <div class="w3-card-4" style="width: 550px;background-color:White; display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  ">
               <div class="w3-container w3-black">
                 <h2 style="color:white;">Heart Disease Analysis</h2>
               </div>
