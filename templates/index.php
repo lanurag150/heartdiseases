@@ -75,9 +75,7 @@
 
    <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:AntiqueWhite;">
    
-      <div class="container col-lg-6" style=" display: grid;  
-    grid-template-columns: 100px 100px 100px;  
-    grid-template-rows: 50px 50px;"  >
+      <div class="container col-lg-6"  >
           
           
             <div class="w3-card-4" style="width: 550px;background-color:White; ">
