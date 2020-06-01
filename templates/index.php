@@ -195,7 +195,7 @@
             	<div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/fortis.jpg') }}'); background-attachment:fixed;">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/fortis.jpg') }}'); ">
 			                <div class="box">
 			                  <h2>Fortis Escorts Heart Institute and Research Center</h2>
 			                  <p><b>Address:</b>Okhla Road, New Delhi - 110 025 (INDIA)</p>
@@ -226,7 +226,7 @@
 			        <div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/asian.jpg') }}'); background-attachment:fixed;">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/asian.jpg') }}'); ">
 			                <div class="box">
 			                  <h2>Asian Heart Institute</h2>
 			                  <p><b>Address:</b>G / N Block, Bandra Kurla Complex,Bandra (E), Mumbai 400 051, Maharashtra, INDIA.</p>
@@ -257,7 +257,7 @@
 		     <div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/apollo.jpg') }}'); background-attachment:fixed;">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/apollo.jpg') }}'); ">
 			                <div class="box">
 			                  <h2>Apollo Hospitals,Greams Lane</h2>
 			                  <p><b>Address:</b>No. 21, Greams Lane,Off.Greams Road, Chennai - 600006</p>
@@ -288,7 +288,7 @@
 		    <div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/nanavati.jpg') }}'); background-attachment:fixed;">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='images/nanavati.jpg') }}'); ">
 			                <div class="box">
 			                  <h2>Nanavati Super Speciality Hospital,</h2>
 			                  <p><b>Address:</b>Swami Vivekanand Rd,LIC Colony,Suresh Colony, Vile Parle West,Mumbai, Maharashtra 400056</p>
