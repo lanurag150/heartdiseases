@@ -185,6 +185,65 @@
             </div>
       {{ prediction_text }}
     </section>
+	  <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:AntiqueWhite;">
+		   <div class="row justify-content-start mb-5 pb-3 mt-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4">Top Hospitals in India</h2>
+		          </div>
+		        </div>
+            <div class="row">
+            	<div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url(images/fortis.jpg);">
+			                <div class="box">
+			                  <h2>Fortis Escorts Heart Institute and Research Center</h2>
+			                  <p><b>Address:</b>Okhla Road, New Delhi - 110 025 (INDIA)</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                  <p>&ldquo;Salient Features
+						200 expert doctors and 1600 qualified employees
+						Hi-tech technology such as Dual CT Scan
+						More than 14,000 patient admissions and 7000 emergency patients handled each year
+						Around 285 hospital beds with full occupancy
+						5 equipped Cath labs
+						First of its kind E-ICU in India
+						NABH accreditation&rdquo;</p>
+			                </blockquote>
+			          	</div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+			        <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url(images/asian.jpg);">
+			                <div class="box">
+			                  <h2>Asian Heart Institute</h2>
+			                  <p><b>Address:</b>G / N Block, Bandra Kurla Complex,Bandra (E), Mumbai 400 051, Maharashtra, INDIA.</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                  <p>&ldquo;Salient Features
+					Close to 2.5 lakhs patients treated till date
+					33,000 angiographies done
+					22,000 surgeries performed
+					18,000 bypass patients provided with surgery
+					Success rate of 99.3% with regards to bypass surgeries
+					Success rate of 99.83% with regards to Cardiac Surgeries&rdquo;</p>
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+            </div>
+	</section>	  
 		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     	<div class="overlay"></div>
       <div class="container">
