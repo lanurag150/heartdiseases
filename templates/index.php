@@ -74,7 +74,7 @@
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:AntiqueWhite;">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 1300px;background-color:AntiqueWhite;">
    
       <div class="container col-lg-6"  >
           
@@ -195,7 +195,7 @@
             	<div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url(images/fortis.jpg);">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='fortis.jpg') }}');">
 			                <div class="box">
 			                  <h2>Fortis Escorts Heart Institute and Research Center</h2>
 			                  <p><b>Address:</b>Okhla Road, New Delhi - 110 025 (INDIA)</p>
@@ -204,14 +204,20 @@
 			              <div class="back">
 			                <!-- back content -->
 			                <blockquote>
-			                  <p>&ldquo;Salient Features
+			                  <pre><b>Salient Features</b>
 						200 expert doctors and 1600 qualified employees
 						Hi-tech technology such as Dual CT Scan
 						More than 14,000 patient admissions and 7000 emergency patients handled each year
 						Around 285 hospital beds with full occupancy
 						5 equipped Cath labs
 						First of its kind E-ICU in India
-						NABH accreditation&rdquo;</p>
+						NABH accreditation</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+						Dr. Ashok Seth, Cardiologist
+						Dr. Ashok Kumar Omar, Cardiologist (Non-invasive)
+						Dr. S.N. Khanna, Cardiac Surgeon
+						Dr. Z.S. Meharwal, Surgeon (Cardiovascular)
+					</pre>
 			                </blockquote>
 			          	</div>
 			            </div>
@@ -220,7 +226,7 @@
 			        <div class="col-md-6 ftco-animate">
 			          <div class="block-2">
 			            <div class="flipper">
-			              <div class="front" style="background-image: url(images/asian.jpg);">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='asian.jpg') }}');">
 			                <div class="box">
 			                  <h2>Asian Heart Institute</h2>
 			                  <p><b>Address:</b>G / N Block, Bandra Kurla Complex,Bandra (E), Mumbai 400 051, Maharashtra, INDIA.</p>
@@ -229,19 +235,89 @@
 			              <div class="back">
 			                <!-- back content -->
 			                <blockquote>
-			                  <p>&ldquo;Salient Features
-					Close to 2.5 lakhs patients treated till date
-					33,000 angiographies done
-					22,000 surgeries performed
-					18,000 bypass patients provided with surgery
-					Success rate of 99.3% with regards to bypass surgeries
-					Success rate of 99.83% with regards to Cardiac Surgeries&rdquo;</p>
+			                 <pre><b>Salient Features</b>
+						Close to 2.5 lakhs patients treated till date
+						33,000 angiographies done
+						22,000 surgeries performed
+						18,000 bypass patients provided with surgery
+						Success rate of 99.3% with regards to bypass surgeries
+						Success rate of 99.83% with regards to Cardiac Surgeries</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+						Dr. Ramakanta Panda, Surgeon (Cardiothoracic & Vascular)
+						Dr. Tilak Suvarna, Cardiologist (Interventional)
+						Dr. Prafulla Kerkar, Cardiologist
+						Dr. Sunil Vanzara, Surgeon (Cardiothoracic & Vascular)	</pre>
+ 
 			                </blockquote>
 			   
 			            </div>
 			            </div>
 			          </div> <!-- .flip-container -->
 			        </div>
+		     <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='apollo.jpg') }}');">
+			                <div class="box">
+			                  <h2>Apollo Hospitals,Greams Lane</h2>
+			                  <p><b>Address:</b>No. 21, Greams Lane,Off.Greams Road, Chennai - 600006</p>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                 <pre><b>Salient Features</b>
+						More than 1,40,000 heart surgeries performed till date
+						Success rate of 99.6% achieved
+						Dedicated and well equipped CCUs for Cardiothoracic concerns with a nursing ratio of 1:1
+						Latest diagnostic and medical equipment used
+						Expert team of surgeons and doctors
+						Saving a child's heart initiative for serving underprivileged children</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+						Dr. Amal Louis, Cardiologist
+						Dr. Guru Prasad Sogunuru, Cardiology specialist (Electrophysiology, Transplantation, Heart failure)
+						Dr. Y. Vijaychandra Reddy, Cardiologist (Interventional)
+						Dr. Asha Mahilmaran, Cardiologist</pre>
+ 
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+		    <div class="col-md-6 ftco-animate">
+			          <div class="block-2">
+			            <div class="flipper">
+			              <div class="front" style="background-image: url('{{ url_for('static', filename='nanavati.jpg') }}');">
+			                <div class="box">
+			                  <h2>Nanavati Super Speciality Hospital,</h2>
+			                  <pre><b>Address:</b>Swami Vivekanand Rd, LIC Colony,Suresh Colony, Vile Parle West,
+								Mumbai, Maharashtra 400056</pre>
+			                </div>
+			              </div>
+			              <div class="back">
+			                <!-- back content -->
+			                <blockquote>
+			                 <pre><b>Salient Features</b>
+						Highly advanced diagnostic facilities like MrgFUS, 64 slice PET-CT scan, High Intensity Focused Ultrasound
+						First of its kind fully functional cardiac catheterization lab
+						Advanced techniques like minimal access bypass surgery utilized to treat heart conditions
+						Facilities for visa arrangement, currency exchange, airport transfer, diet counseling, lodging for patients visiting from abroad
+						Specially designed cardiac packages including blood tests, scans and doctor consultation
+						I.C.C.U for heart patients requiring critical care</pre>
+					<pre><b>Esteemed panel of Doctors</b>
+						Dr. Harish Mohanty - Cardiologist
+						Dr. Akshay Mehta - Cardiologist
+						Dr. Mahesh Shah - Cardiologist
+						Dr. Lekha Pathak - Cardiologist
+						Dr. Rajiv Bhagwat - Cardiologist
+			                </blockquote>
+			   
+			            </div>
+			            </div>
+			          </div> <!-- .flip-container -->
+			        </div>
+
             </div>
 	</section>	  
 		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
@@ -279,7 +355,7 @@
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">King's Palace 9(a), Kiit University, Patia, Bhubaneshwar,Odisha-751024</span></li>
 	                <li><a href="tel:+91 7735866609"><span class="icon icon-phone"></span><span class="text">+91 7735866609</span></a></li>
-	                <li><a href="mailto:piyushsinghpk21@yahoo.com"><span class="icon icon-envelope"></span><span class="text">piyushsinghpk21@yahoo.com</span></a></li>
+	                <li><a href="mailto:kanurag150@gmail.com"><span class="icon icon-envelope"></span><span class="text">kanurag150@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
