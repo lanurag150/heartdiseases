@@ -29,6 +29,31 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+	   <style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+	  </style>
   </head>
   <body>
   
@@ -184,6 +209,10 @@
             </div>
             </div>
       {{ prediction_text }}
+	      <a href="http://premediccare.rf.gd/recommedation.php" target="_top" align="right">  <button class="button button1">Recommend</button></a>
+
+    </section>
+		<footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg);">
     </section>
 	  <section class="ftco-section contact-section ftco-degree-bg" style="height: 1500px;background-color:White;">
 		   <div class="row justify-content-start mb-5 pb-3 mt-5">
