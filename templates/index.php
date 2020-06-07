@@ -348,12 +348,12 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Have a Question?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">King's Palace 9(a), Kiit University, Patia, Bhubaneshwar,Odisha-751024</span></li>
-	                <li><a href="tel:+91 7735866609"><span class="icon icon-phone"></span><span class="text">+91 7735866609</span></a></li>
-	                <li><a href="mailto:kanurag150@gmail.com"><span class="icon icon-envelope"></span><span class="text">kanurag150@gmail.com</span></a></li>
+	                <li><a href="tel:+91 7735866609"><span class="icon icon-phone"></span><span class="text">+91 9798428466</span></a></li>
+	                <li><a href="mailto:ankitaditya02@gmail.com"><span class="icon icon-envelope"></span><span class="text">ankitaditya02@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
